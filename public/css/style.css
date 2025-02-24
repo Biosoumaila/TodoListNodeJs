@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+header {
+    background-color: bisque;
+}
+
+
+
+
+h1 {
+    margin: 0;
+    text-align: center;
+    text-decoration: solid;
+}
+
+main div input[type='submit'] {
+    padding: .3rem;
+    justify-items: center;
+    background-color: blueviolet;
+    margin: .5rem;
+    border: 0;
+    font-weight: bold;
+}
+
+main div input[type='submit']:hover {
+    background-color: aqua;
+}
+
+main div input[type='text']:hover {
+    background-color: brown;
+}
+
+main #taches-div {
+    margin: 50px;
+}
+
+footer {
+    background-color: blue;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "gestionnaire-taches",
+  "version": "1.0.0",
+  "description": "cette application web nous permettra de gerer nos taches",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "npm start"
+  },
+  "author": "soumaila",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-handlebars": "^8.0.1",
+    "normalize.css": "^8.0.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
